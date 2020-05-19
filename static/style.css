@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#my_dataviz{
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: #222 solid 1px;
+}
+
+.province {
+        stroke: #fff;
+        stroke-width: 1px;
+    }
+    .province:hover {
+        fill: #666;
+    }
+    .hidden {
+        display: none;
+    }
+    div.tooltip {
+        color: #222;
+        background-color: #fff;
+        border: #222 solid 1px;
+        padding: .5em;
+        text-shadow: #f5f5f5 0 1px 0;
+        border-radius: 2px;
+        opacity: 0.9;
+        font-weight: 200;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        position: absolute;
+    }
