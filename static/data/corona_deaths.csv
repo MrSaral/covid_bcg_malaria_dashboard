@@ -1,4 +1,4 @@
-Entity,Deaths
+Countries,Deaths_c
 Afghanistan,173
 Albania,31
 Algeria,555
@@ -53,6 +53,7 @@ Dominica,0
 Dominican Republic,434
 Ecuador,2799
 Egypt,645
+England,34876
 El Salvador,30
 Equatorial Guinea,7
 Eritrea,0
@@ -179,6 +180,10 @@ Ukraine,535
 United Arab Emirates,224
 United Kingdom,34876
 Uruguay,20
+US,91845
+USA,91845
+United States of America,91845
+United States,91845
 Uzbekistan,13
 Venezuela,10
 Vietnam,0

@@ -6,8 +6,9 @@ h2{
 }
 
 #my_dataviz{
+    display: none;
     text-align: center;
-    display: block;
+    
     margin: auto;
     border: #222 solid 1px;
 }
