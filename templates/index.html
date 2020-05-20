@@ -12,17 +12,22 @@
 
 <script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
 
 </head>
 <body>
 
-    <h2>CSE 564 Covid 19, BCG, Malaria Dashboard</h2>
+    <h2>Data Visualisation CSE 564 - Dashboard</h2>
 
-    <button id="malaria" name="malaria" onclick="malaria()">Malaria WorldMap</button>
+    <button id="covid" class="btn orange span" name="covid" onclick="covid()">Covid DeathRate WorldMap</button>
+    <button id="bcg" class="btn blue span" name="bcg" onclick="bcg()">BCG Vaccine WorldMap</button>
 
-    <button id="covid" name="covid" onclick="covid()">Covid WorldMap</button>
+    <button id="malaria" class="btn" name="malaria" onclick="malaria()">Malaria DeathRate WorldMap</button>
+
+
 
 
     <svg id="my_dataviz" width="1000" height="600"></svg>
